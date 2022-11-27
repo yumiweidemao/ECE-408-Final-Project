@@ -1,5 +1,15 @@
 # ECE408/CS483 Final Project
 
+## Description
+The optimizations used for this project are:
+- Tiled shared memory convolution
+- Multiple kernels for different layers, mask values in constant memory
+- FP16 arithmetic
+- Using CUDA streams to overlap data transfer and computation
+
+These optimizations are in the */op/* folder.
+**Following is the original description of the project.**
+
 ## Introduction
 
 This is the skeleton code for the Fall 2022 ECE408 / CS483 course project.
